@@ -6,4 +6,23 @@
 
 body{
   font-family: monospace;
+  background: #ede2de;
+}
+
+/* ***colors********
+:root{
+--primaryBackground:
+} */
+/*
+.app{
+  max-width: 1024px;
+  margin: auto;
+} */
+.link{
+  color: #fff;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-size: 18px;
+  color: #fff;
 }

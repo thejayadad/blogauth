@@ -9,7 +9,7 @@ import UpdateBlog from "./pages/updateBlog/UpdateBlog";
 
 function App() {
   return (
-    <div>
+    <div className="app">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
