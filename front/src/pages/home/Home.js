@@ -9,15 +9,13 @@ const Home = () => {
   return (
     <div className='box' >
         <Navbar />
-       <section className='main-section'>
-      <div className='sidebar'>
-      <FeaturedBlogs />
-      </div>
-        <div className='main-container'>
+        <main className='main'>
+
+        <FeaturedBlogs />
         <Categories />
-        </div>
-       </section>
-       <Footer />
+
+        </main>
+      <Footer />
 
     </div>
   )

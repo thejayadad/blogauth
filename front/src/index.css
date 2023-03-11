@@ -9,11 +9,49 @@
    * colors
    */
 
+   .light-theme {
 
+
+
+    --background-primary: #ede2de;
+    --background-secondary: hsl(0, 0%, 97%);
+
+    --action-primary: hsl(214, 32%, 91%);
+    --action-secondary: hsl(210, 38%, 95%);
+
+    --foreground-primary: #beb5b2;
+    --foreground-secondary: #d5cbc8;
+    --foreground-tertiary: a69e9b;
+
+    --accent: hsl(229, 76%, 66%);
+
+  }
 
 body{
   font-family: monospace;
   background: #ede2de;
   text-decoration: none;
+  list-style: none;
 
+}
+html{
+  line-height: 1.8;
+}
+button, img{
+  display: block;
+}
+
+span{
+  display: inline-block;
+}
+
+button{
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.container{
+  margin-inline: auto;
+  margin: auto;
+  padding: 0 15px;
 }

@@ -1,25 +1,18 @@
 import React from 'react'
 import "./featuredBlogs.css"
+import {Link} from "react-router-dom"
 
 
 const FeaturedBlogs = () => {
   return (
     <section>
-      <div className='featured-container'>
-          <div className='profile'>
-          <i class="fas fa-home"></i>
-            <h2 className='profile-text'>Profile Name</h2>
+        <div className='featured_container'>
+          <div className='featured_row'>
+            <div className='feature_card'>
+              featured
+            </div>
           </div>
-          <div className='category-container'>
-            <h2>category Container</h2>
-          </div>
-          <div className='feature-container'>
-            <h2>Feature category</h2>
-          </div>
-          <div className='footer'>
-            <h2>Footer</h2>
-          </div>
-      </div>
+        </div>
     </section>
   )
 }
