@@ -9,39 +9,14 @@ const Navbar = () => {
 
   const user = true;
   return (
-    <header className='header'>
-        <nav className='navbar'>
-          <div className='container'>
-            <div className='navbar_container'>
-              <ul className='navbar_left'>
-                <div className='navbar_logo'>
-                  <img alt="logo" src={logo} />
-                </div>
-              </ul>
-              {
-                state ? (
-                  <ul className='navbar_right'>
-                      <li><Link to="/">Home</Link></li>
-                      <li><Link to="/">Home</Link></li>
-                      <li><Link to="/">Home</Link></li>
-                      <li><Link to="/">Home</Link></li>
-                  </ul>
-                ) : (
-                  <div className='navbar_desk'>
-                    <ul>
-                    <li><Link to="/">Home</Link></li>
-                      <li><Link to="/">Home</Link></li>
-                      <li><Link to="/">Home</Link></li>
-                      <li><Link to="/">Home</Link></li>
-                    </ul>
-                    </div>
-                )}
-            </div>
-          </div>
-          <div onClick={() => setState(!state)} className='toggle'>
-          <i class="fas fa-bars"></i>
-          </div>
-        </nav>
+    <header>
+        <div className='header-container'>
+        <h1 className="text-3xl font-bold underline">
+        Hello world!
+    </h1>
+
+        </div>
+
     </header>
   )
 }

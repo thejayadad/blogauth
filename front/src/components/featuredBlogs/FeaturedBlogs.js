@@ -1,21 +1,24 @@
 import React from 'react'
 import "./featuredBlogs.css"
 
+
 const FeaturedBlogs = () => {
   return (
     <section>
-      <div className='category'>
-        <div className='content'>
-          <div className='box'>
-            <div className='bx'>
-              <img src="https://images.pexels.com/photos/2240763/pexels-photo-2240763.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="cat-img" />
-            </div>
-            <div className='overlay'>
-              <h4>Category</h4>
-              <p>Category Title Content</p>
-            </div>
+      <div className='featured-container'>
+          <div className='profile'>
+          <i class="fas fa-home"></i>
+            <h2 className='profile-text'>Profile Name</h2>
           </div>
-        </div>
+          <div className='category-container'>
+            <h2>category Container</h2>
+          </div>
+          <div className='feature-container'>
+            <h2>Feature category</h2>
+          </div>
+          <div className='footer'>
+            <h2>Footer</h2>
+          </div>
       </div>
     </section>
   )

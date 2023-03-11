@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities
+
 *{
   margin: 0;
   padding: 0;
@@ -11,6 +15,7 @@ body{
 
 }
 
+
 /* ***colors********
 :root{
 --primaryBackground:
@@ -20,7 +25,21 @@ body{
   max-width: 1024px;
   margin: auto;
 } */
-.container{
-  max-width: 1200px;
-  margin: auto 0;
+
+
+.videos::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(237, 237, 237);
+  border-radius: 40px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
 }
